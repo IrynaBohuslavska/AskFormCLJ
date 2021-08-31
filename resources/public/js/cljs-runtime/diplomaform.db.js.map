@@ -1,0 +1,1 @@
+{"version":3,"sources":["diplomaform/db.cljs"],"mappings":";AAEA,4BAAA,2CAAA,qDAAA,2CAAA,sDAAA,IAAA,+DAAA,yCAAA,4DAAA,2CAAA,sDAAA,IAAA,8DAAA,xiBAAKA","names":["diplomaform.db/default-db"],"sourcesContent":["(ns diplomaform.db)\n\n(def default-db\n  {:data {:title \"_\"\n          :questions []}\n\n   :answers {:title \"_\"\n             :question []}})\n"]}

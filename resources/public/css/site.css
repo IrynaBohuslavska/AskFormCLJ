@@ -1,0 +1,99 @@
+@import "https://cdn.jsdelivr.net/npm/bulma@0.9.3/css/bulma-rtl.min.css";
+
+body {
+background-color: FloralWhite;
+}
+.body-container {
+  font-family: 'Helvetica Neue', Verdana, Helvetica, Arial, sans-serif;
+  max-width: 1000px;
+  margin: 0 auto;
+  padding-top: 72px;
+  font-size: 1.2em;
+  line-height: 1.5em;
+}
+
+
+h1, h2, h3 {
+  color: #000;
+}
+h1 {
+  font-size: 2.5em
+}
+
+h2 {
+  font-size: 2em
+}
+
+h3 {
+  font-size: 1.5em
+}
+
+a {
+  text-decoration: none;
+  color: #09f;
+}
+
+.containerp {
+  margin-bottom: 40px;
+  background: rgb(121,191,150);
+}
+
+
+.field {
+  margin-bottom: 30px;
+  padding: 20px 0 10px 30px;  
+  background: PapayaWhip;  
+  border-radius: 20px;  
+}
+
+.diagram-part {
+  height: 30px; 
+  margin: 5px; 
+  padding: 5px;
+
+  background: white;
+  border: 1px solid Tan;
+  margin: 3%;
+  color: white;
+  background: repeating-linear-gradient(
+    45deg,
+    Tan,
+    BurlyWood 10px,
+    Tan 10px,
+    BurlyWood 20px
+  );
+}
+
+input[type=text], select {
+  width: 45%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+
+.button {
+  background-color: DimGrey;
+  border: none;
+  border-radius: 8px;
+  color: white;
+  padding: 10px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 10px 2px;
+  cursor: pointer;
+}
+
+input {
+    margin: .4rem;
+}
+
+
+.choise {
+  width: 20px;
+  height: 20px;
+}
