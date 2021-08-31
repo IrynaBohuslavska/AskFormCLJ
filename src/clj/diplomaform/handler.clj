@@ -65,7 +65,7 @@
   (clojure.pprint/pprint _request)
   
   (let [data (:body _request)]
-    (reset! answers data)
+    (swap! answers assoc :values 0)
     (clojure.pprint/pprint @answers)
 
     ;; extract data from request
@@ -74,7 +74,8 @@
     )
   {:status 200
    :headers {"Content-Type" "application/json"}
-   :body "Updated"})
+   :body "Updated"
+   :massage "Ok"})
 
 (def app
   (reitit-ring/ring-handler
